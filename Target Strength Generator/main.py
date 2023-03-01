@@ -11,7 +11,7 @@ from tools import *
 import predictor
 
 ## Modify your path here
-PATH='C:/Users/MINT/Desktop'
+PATH='your_path'
 
 ## read data
 #walleye, smbass, carp, lamprey, sucker
