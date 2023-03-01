@@ -18,20 +18,17 @@ def brightness(df):
         hist = cv2.calcHist([crop_img], [0], None, [256], [0, 256])
         crop_img=crop_img.reshape(h*w,1)
         kmeans = KMeans(n_clusters=4, random_state=0).fit(crop_img)
-        #print('Kmeans:',kmeans.cluster_centers_)
+        
         score=kmeans.cluster_centers_
         score=np.sort(score,axis=0)
-        #print((score[1]+score[2])/2)
         threshold=(score[2]+score[3])/2
         
         area=0
         for i in crop_img:
             if(i>=threshold):
-                #print(type(i))
                 sum=sum+i.astype(int)
                 area=area+1
-        #sum=np.expand_dims(sum,axis=0)
-        #print(sum.size)
+       
         list.append([row['file'],row['location_x'],row['location_y'],sum[0]/area,area,row['distance'],row['TS']])
 
 
@@ -51,20 +48,17 @@ def brightness_no_TS(df):
         hist = cv2.calcHist([crop_img], [0], None, [256], [0, 256])
         crop_img=crop_img.reshape(h*w,1)
         kmeans = KMeans(n_clusters=4, random_state=0).fit(crop_img)
-        #print('Kmeans:',kmeans.cluster_centers_)
+        
         score=kmeans.cluster_centers_
         score=np.sort(score,axis=0)
-        #print((score[1]+score[2])/2)
         threshold=(score[2]+score[3])/2
         
         area=0
         for i in crop_img:
             if(i>=threshold):
-                #print(type(i))
                 sum=sum+i.astype(int)
                 area=area+1
-        #sum=np.expand_dims(sum,axis=0)
-        #print(sum.size)
+        
         list.append([row['file'],row['location_x'],row['location_y'],sum[0]/area,area,row['distance']])
 
 
