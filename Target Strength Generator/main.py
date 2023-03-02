@@ -15,11 +15,11 @@ PATH='your_path'
 
 ## read data
 #walleye, smbass, carp, lamprey, sucker
-file1 = open(PATH+'/DIDSON_DATASET/walleye_label_5028/DIDSON_walleye_nl_export_2021-11-07_09-36-02.json')
+file1 = open(PATH+'/DIDSON_dataset/walleye_label_5028/DIDSON_walleye_nl_export_2021-11-07_09-36-02.json')
 walleye_data = json.load(file1)
-file2 = open(PATH+'/DIDSON_DATASET/smbass_label_5040/DIDSON_smbass_nl_export_2021-11-07_09-35-46.json')
+file2 = open(PATH+'/DIDSON_dataset/smbass_label_5040/DIDSON_smbass_nl_export_2021-11-07_09-35-46.json')
 smbass_data = json.load(file2)
-file3 = open(PATH+'/DIDSON_DATASET/carp_label_5095/DIDSON_carp_nl_export_2021-11-07_09-33-58.json')
+file3 = open(PATH+'/DIDSON_dataset/carp_label_5095/DIDSON_carp_nl_export_2021-11-07_09-33-58.json')
 carp_data = json.load(file3)
 file4 = open(PATH+'/DIDSON_dataset/lamprey_label/DIDSON_lamprey_export_2021-10-15_16-31-59.json')
 lamprey_data = json.load(file4)
