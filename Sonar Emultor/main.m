@@ -34,7 +34,7 @@ SP.gain=40;
 SP.noisefigure=10;
 SP.seed=2007;
 
-% data size
+% data size (the valid data)
 ds.smbass=3584;
 ds.carp=2227;
 ds.walleye=2306;
