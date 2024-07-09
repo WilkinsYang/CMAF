@@ -3,19 +3,10 @@ CMAF: A Cross-Modal Augmentation via Fusion Network for Underwater Acoustic Imag
 
 [ACM showcase](<https://link.growkudos.com/1egh1tu1qtc>)
 
-##  Requirements
-
 ##  Datasets
-
-##  Data preparation
-
-##  Target Strength Generator
-
-##  Sonar Emulator
-
-##  Training
-
-##  Performance
+[Datasets](<https://drive.google.com/drive/folders/1gBjz_ldjs3zM1yCQwIG3V292pG6ggMse>)
+##  Implementation details
+For the implementation details, please refer to the published paper [link](<https://doi.org/10.1145/3636427>)
 
 ## Citation
 If using the concept or the code, please kindly cite the paper as: Shih-Wei Yang, Li-Hsiang Shen, Hong-Han Shuai, and Kai-Ten Feng, "CMAF: Cross-Modal Augmentation via Fusion for Underwater Acoustic Image Recognition," ACM Transactions on Multimedia Computing, Communications, and Applications, vol. 20, no. 5, Jan. 2024.
