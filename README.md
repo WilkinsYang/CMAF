@@ -4,7 +4,7 @@ CMAF: A Cross-Modal Augmentation via Fusion Network for Underwater Acoustic Imag
 [ACM showcase](<https://link.growkudos.com/1egh1tu1qtc>)
 
 ##  Datasets
-[Datasets](<https://drive.google.com/drive/folders/1gBjz_ldjs3zM1yCQwIG3V292pG6ggMse>)
+[Datasets](<https://drive.google.com/file/d/1iUIJXiojNhJguD5u9eFe9wsVb9kyPDW_/view?usp=drive_link>)
 ##  Implementation details
 For the implementation details, please refer to the published paper [link](<https://doi.org/10.1145/3636427>)
 
